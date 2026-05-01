@@ -1,0 +1,22 @@
+.claude/
+.env
+.env.*
+*.log
+*.pyc
+__pycache__/
+mlruns/
+node_modules/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+dist/
+build/
+
+# Google Drive sync debris -- can hitchhike into `gh repo create --source=.`
+*.tmp.driveupload
+.~lock*
+*.gdoc
+*.gsheet
